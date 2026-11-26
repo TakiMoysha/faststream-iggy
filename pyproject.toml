@@ -1,0 +1,17 @@
+[project]
+name = "faststream-iggy"
+version = "0.1.0"
+description = "FastStream custom broker integration for Apache Iggy"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+  { name = "TakiMoysha", email = "36836047+TakiMoysha@users.noreply.github.com" },
+]
+dependencies = ["apache-iggy>=0.10.0", "faststream>=0.7.9"]
+
+[dependency-groups]
+dev = ["pytest>=9.2.0"]
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
